@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_facebook"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddSubActi"></activity>
+        <activity android:name=".AddSubActi">
+
+        </activity>
         <activity android:name=".SignUp" />
         <activity android:name=".ProfileAccount" />
         <activity android:name=".LoginActivity" />

@@ -2,6 +2,7 @@ package datnguyen.ute.chodocu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -17,5 +18,10 @@ public class SignUp extends AppCompatActivity {
     }
 
     public void login(View view) {
+    }
+
+    public void backLogin(View view) {
+        Intent intent = new Intent(this,LoginActivity.class);
+        startActivity(intent);
     }
 }
