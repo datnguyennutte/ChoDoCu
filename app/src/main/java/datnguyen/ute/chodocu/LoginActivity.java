@@ -44,9 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void OpenMainActivity(){
-        String user = eUser.getText().toString().trim();
-        String password = eUser.getText().toString().trim();
-        if (user.equals(userDB) && password.equals(passwordDB)){
+        if (eUser.getText().toString().equals("admin") && eUser.getText().toString().equals("admin")){
             Toast.makeText(LoginActivity.this, "Login Successfully", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this,ProfileAccount.class);
             startActivity(intent);
